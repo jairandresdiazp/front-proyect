@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondo-negro{
+ background-color: black;
+}
+
+.fondo-naranja{
+ background-color: orange;
+}
+
+.texto-blanco{
+color: white;
+}
+
+.texto-naranja{
+color: orange;
+}
+
+.centrar{
+text-align: center;
+}
+
+.sin-decoracion{
+    text-decoration: none;
+}
+
+.texto-marron{
+    color: #3C2313;
+}
+
+.negrita{
+    font-weight:bold;
+}
+
+.fuente-30{
+    font-size: 30px;
+}
+
+.fuente-40{
+    font-size: 40px;
+}
+
+.fuente-15{
+    font-size: 15px;
+}
+
+.banner{
+    height: 300px;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
