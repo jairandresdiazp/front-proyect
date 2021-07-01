@@ -25,6 +25,10 @@ header{
     margin: 15px;
 }
 
+.titulo span {
+
+}
+
 nav{
     display: flex;
     flex-wrap: wrap;
