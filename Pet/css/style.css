@@ -119,7 +119,7 @@ body {
 }
 
 .vitrina {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
   justify-content: space-evenly;
 }
 
@@ -137,3 +137,48 @@ body {
     width: 100%;
 }
 
+input{
+   background: #3C2313;
+   border-radius: 16px;
+   padding: 10px;
+   color: white;
+   font-weight: bold;
+   margin: 10px;
+   width: 50%;
+   border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    display: none;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section form div  {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="reset"]{
+    background: #8A8787;
+}
+
+input[type="submit"]{
+    background: orange;
+}
+
+
+input[type="reset"], input[type="submit"]{
+    width: 15%;
+}
