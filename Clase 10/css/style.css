@@ -112,12 +112,11 @@ main.login form {
   width: 40%;
 }
 
-input,select {
+input,
+select {
   margin: 10px;
   padding: 8px;
 }
-
-
 
 input[type="submit"] {
   border: none;
@@ -160,4 +159,45 @@ main.register form div {
 
 main.register form div input {
   width: 50%;
+}
+
+.add-car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-car section {
+  width: 80%;
+  background-color: #00669f;
+  border-radius: 49.0901px;
+  text-align: center;
+  color: #f3f3f3;
+  padding: 5px;
+  margin: 5px;
+}
+
+.add-car section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-car section form div {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.add-car section form div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-car section form div input {
+  width: 80%;
+  border-radius: 49.0901px;
+  border: none;
 }
