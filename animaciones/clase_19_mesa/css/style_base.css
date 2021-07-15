@@ -96,9 +96,6 @@ nav ul li a:hover::before{
 }
 
 @keyframes resize {
-    from {
-        padding: 10px 15px;
-    }
     to {
         background: var(--primary-color);
         padding: 10px 30px;
