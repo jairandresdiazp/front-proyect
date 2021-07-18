@@ -161,6 +161,7 @@ main
   section[class="item"]
   span {
   text-decoration: none;
+  font-weight: bold;
   background-color: var(--rojoBrillante);
   color: var(--blanco);
   border-radius: 50px;
@@ -179,7 +180,8 @@ main
   section[class="seccion-2"]
   section[class="seccion-2-col-1"]
   section[class="item"]
-  section h3 {
+  section
+  h3 {
   font-weight: 700;
   font-size: 1rem;
   color: var(--azulOscuro);
@@ -189,6 +191,67 @@ main
   section[class="seccion-2"]
   section[class="seccion-2-col-1"]
   section[class="item"]
-  section p {
+  section
+  p {
   color: var(--azulGrisaceoOscuro);
+}
+
+main section[class="seccion-3"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px 40px 0px;
+}
+
+main section[class="seccion-3"] h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--azulOscuro);
+  margin-bottom: 20px;
+}
+
+main section[class="seccion-3"] section[class="tarjetas"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 0px 20px 0px;
+}
+
+main section[class="seccion-3"] section[class="tarjetas"] article {
+  background-color: var(--varianteGrisClaro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20x 10px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+main section[class="seccion-3"] section[class="tarjetas"] article img {
+  display: block;
+  margin-top: -20%;
+  width: 30%;
+}
+
+main section[class="seccion-3"] section[class="tarjetas"] article p {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  color: var(--azulGrisaceoOscuro);
+}
+
+main section[class="seccion-3"] span a {
+  text-decoration: none;
+  background-color: var(--rojoBrillante);
+  color: var(--blanco);
+  border-radius: 50px;
+  padding: 10px;
+}
+
+main section[class="seccion-3"] span a:visited {
+  text-decoration: none;
+  color: var(--blanco);
 }
